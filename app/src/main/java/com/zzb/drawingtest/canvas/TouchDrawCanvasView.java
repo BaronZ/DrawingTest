@@ -2,7 +2,6 @@ package com.zzb.drawingtest.canvas;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -58,8 +57,8 @@ public class TouchDrawCanvasView extends View {
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
         //ur canvas will draw onto the defined bitmap
-        mBitmapToDrawOn = Bitmap.createBitmap(w, h, Config.ARGB_8888);
-        mCanvas = new Canvas(mBitmapToDrawOn);
+//        mBitmapToDrawOn = Bitmap.createBitmap(w, h, Config.ARGB_8888);
+//        mCanvas = new Canvas(mBitmapToDrawOn);
     }
 
 
