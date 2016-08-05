@@ -8,14 +8,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.zzb.drawingtest.MainActivity"
+    tools:context="com.zzb.drawingtest.canvas.DrawActivity"
     >
 
     <Button
-        android:id="@+id/btn_canvas"
+        android:id="@+id/btn_clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="canvas"
-        android:onClick="onClick"
+        android:text="clear"
+        android:onClick="clear"
+        />
+
+    <com.zzb.drawingtest.canvas.TouchDrawCanvasView
+        android:id="@+id/touch_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_clear"
         />
 </RelativeLayout>

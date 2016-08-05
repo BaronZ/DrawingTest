@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".surfaceview.SurfaceViewActivity">
         </activity>
+        <activity android:name=".canvas.DrawActivity">
+        </activity>
     </application>
 
 </manifest>
