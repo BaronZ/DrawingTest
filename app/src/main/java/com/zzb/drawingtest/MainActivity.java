@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.zzb.drawingtest.canvas.DrawActivity;
+import com.zzb.drawingtest.canvas.CanvasActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_canvas:
-                toActivity(DrawActivity.class);
+                toActivity(CanvasActivity.class);
                 break;
         }
     }
